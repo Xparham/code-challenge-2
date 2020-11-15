@@ -36,3 +36,8 @@ abbr {
     cursor: pointer;
     text-decoration: none;
 }
+
+#google-search {
+    display: flex;
+    justify-content: center;
+}

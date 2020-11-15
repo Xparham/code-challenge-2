@@ -37,11 +37,32 @@ abbr {
     text-decoration: none;
 }
 
+#middle {
+    margin: 0;
+}
+
+#search {
+    border-radius: 20px;
+    padding: 10px 150px;
+    border-color: white;
+    box-shadow: 2px 2px 2px 2px gray;
+    
+}
+
+
+
 #footer {
     display: flex;
     justify-content: space-between;
-    border: green;
+    align-items: flex-end;
+
    }
+
+#left-2 {
+    width: 250px;
+    display: flex;
+    justify-content: space-evenly;
+}
 
 .bottom {
     display: flex;
@@ -49,6 +70,8 @@ abbr {
     font-family: sans-serif;
     font-weight: 400;
     font-size: 11px;
+    position: bottom;
+    
 
 }
 

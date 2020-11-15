@@ -38,13 +38,21 @@ abbr {
 }
 
 #middle {
-    margin: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
+
+#logo {
+    
+
+}
+
 
 #search {
     border-radius: 20px;
     padding: 10px 150px;
-    border-color: white;
+    border-color: rgb(0, 0, 0);
     box-shadow: 2px 2px 2px 2px gray;
     
 }
@@ -55,6 +63,7 @@ abbr {
     display: flex;
     justify-content: space-between;
     align-items: flex-end;
+    background-color: lightgray; 
 
    }
 
@@ -64,16 +73,18 @@ abbr {
     justify-content: space-evenly;
 }
 
-.bottom {
+#right-2 {
+    width: 120px;
     display: flex;
-    justify-content: space-evenly;
+    justify-content: space-between;
+    padding-right: 20px;
+}
+.bottom {
     font-family: sans-serif;
     font-weight: 400;
     font-size: 11px;
-    position: bottom;
-    
-
-}
+    color: gray;
+ }
 
 
 

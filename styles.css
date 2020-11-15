@@ -37,7 +37,15 @@ abbr {
     text-decoration: none;
 }
 
-#google-search {
+#footer {
     display: flex;
-    justify-content: center;
+    justify-content: space-between;
 }
+
+.bottom {
+    display: flex;
+    justify-content: space-evenly;
+}
+
+
+
